@@ -1,0 +1,5 @@
+1. ls
+2. ssh -i sshkey.private bandit14@localhost
+3. cat /etc/bandit_pass/bandit14
+
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e - level14 pw
