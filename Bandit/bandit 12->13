@@ -1,0 +1,36 @@
+1. ls
+2. mkdir /tmp/test_123
+3. cd /tmp/test_123
+4. cp ~/data.txt /.
+5. file data.txt
+
+6. xxd -r data.txt > data_xxd_reverse
+7. file data_xxd_reverse
+
+8. zcat data_xxd_reverse > data_zcat
+9. file data_zcat
+
+10. bzip2 -d data_zcat
+11. file data_zcat.out
+
+12. zcat data_zcat.out > data_zcat_2
+13. file data_zcat_2
+
+14. tar xvf data_zcat_2
+15. file data5.bin
+
+16. tar xvf data5.bin
+17. file data6.bin
+
+18. bzip2 -d data6.bin
+19. file data6.bin.out
+
+20. tar xvf data6.bin.out
+21. file data8.bin
+
+22. zcat data8.bin > data8_zcat
+23. file data8_zcat
+
+24. cat data8_zcat
+
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL - level13 pw
