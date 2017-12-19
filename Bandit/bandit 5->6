@@ -1,6 +1,6 @@
 1. ls
 2. cd inhere
-3. find . type -f -size 1033c ! -executable
+3. find . -type f -size 1033c ! -executable
 4. cat ./maybehere07/.file2
 
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7 - level6 pw

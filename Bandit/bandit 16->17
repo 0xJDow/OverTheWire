@@ -3,7 +3,7 @@
 3. cluFn7wTiGryunymYOu4RcffSxQluehd
 4. mkdir /tmp/test123456
 5. cd /tmp/test123456
-6. vi sshkey.private
+6. nano sshkey.private
 7. (paste RSA key from openssl earlier)
 8. chmod 600 sshkey.private
 9. ssh -i ./sshkey.private bandit17@localhost
